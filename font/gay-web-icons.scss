@@ -1,0 +1,70 @@
+/*!
+ * Gay Web Icons v1.11.3 (https://gaywebicons.xyz/)
+ * Copyright 2024 David Gerard
+ * MIT License
+ */
+
+$gay-web-icons-font: "gay-web-icons" !default;
+$gay-web-icons-font-dir: "./fonts" !default;
+$gay-web-icons-font-file: "#{$gay-web-icons-font-dir}/#{$gay-web-icons-font}" !default;
+$gay-web-icons-font-hash: "24e3eb84d0bcaf83d77f904c78ac1f47" !default;
+$gay-web-icons-font-src: url("#{$gay-web-icons-font-file}.woff2?#{$gay-web-icons-font-hash}") format("woff2"),
+                           url("#{$gay-web-icons-font-file}.woff?#{$gay-web-icons-font-hash}") format("woff") !default;
+
+@font-face {
+  font-display: block;
+  font-family: $gay-web-icons-font;
+  src: $gay-web-icons-font-src;
+}
+
+.gwi::before,
+[class^="gwi-"]::before,
+[class*=" gwi-"]::before {
+  display: inline-block;
+  font-family: $gay-web-icons-font !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$gay-web-icons-map: (
+  "4mf": "\f101",
+  "a4a": "\f102",
+  "bbrt-alt": "\f103",
+  "bbrt-mobile": "\f104",
+  "bbrt": "\f105",
+  "belami": "\f106",
+  "falcon": "\f107",
+  "gayromeo": "\f108",
+  "grindr-color": "\f109",
+  "grindr-wordmark-color": "\f10a",
+  "grindr-wordmark": "\f10b",
+  "grindr": "\f10c",
+  "helix-studios": "\f10d",
+  "hornet": "\f10e",
+  "jff-filled": "\f10f",
+  "jff": "\f110",
+  "manhunt": "\f111",
+  "naked-sword": "\f112",
+  "nkp": "\f113",
+  "of": "\f114",
+  "oink": "\f115",
+  "pornhub-filled": "\f116",
+  "pornhub": "\f117",
+  "recon": "\f118",
+  "scruff": "\f119",
+  "sean-cody": "\f11a",
+  "sniffies-filled": "\f11b",
+  "sniffies": "\f11c",
+  "tim": "\f11d",
+  "fansly": "\f11e",
+);
+
+@each $icon, $codepoint in $gay-web-icons-map {
+  .gwi-#{$icon}::before { content: $codepoint; }
+}

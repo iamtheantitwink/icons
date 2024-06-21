@@ -1,21 +1,21 @@
 {
-  "name": "twbs/bootstrap-icons",
-  "description": "Official open source SVG icon library for Bootstrap",
+  "name": "gaywebicons/gaywebicons",
+  "description": "All your favorite gay hookup/porn apps/Websites as a Web font",
   "keywords": [
     "bootstrap",
     "icons",
     "svg",
     "icon font"
   ],
-  "homepage": "https://icons.getbootstrap.com/",
+  "homepage": "https://gaywebicons.xyz/",
   "authors": [
     {
-      "name": "Mark Otto",
-      "email": "markdotto@gmail.com"
+      "name": "David Gerard",
+      "email": "david@gaywebicons.xyz"
     }
   ],
   "support": {
-    "issues": "https://github.com/twbs/icons/issues"
+    "issues": "https://github.com/gaywebicons/icons/issues"
   },
   "license": "MIT"
 }

@@ -1,16 +1,16 @@
 'use strict'
 
-const codepoints = require('./font/bootstrap-icons.json')
+const codepoints = require('./font/gay-web-icons.json')
 
 module.exports = {
   inputDir: './icons',
   outputDir: './font',
-  fontTypes: ['woff2', 'woff'],
+  fontTypes: ['woff2', 'woff', 'ttf', 'svg', 'eot'],
   assetTypes: ['css', 'scss', 'json'],
-  name: 'bootstrap-icons',
+  name: 'gay-web-icons',
   codepoints,
-  prefix: 'bi',
-  selector: '.bi',
+  prefix: 'gwi',
+  selector: '.gwi',
   fontsUrl: './fonts',
   formatOptions: {
     json: {
@@ -23,10 +23,10 @@ module.exports = {
     scss: './build/font/scss.hbs'
   },
   pathOptions: {
-    json: './font/bootstrap-icons.json',
-    css: './font/bootstrap-icons.css',
-    scss: './font/bootstrap-icons.scss',
-    woff: './font/fonts/bootstrap-icons.woff',
-    woff2: './font/fonts/bootstrap-icons.woff2'
+    json: './font/gay-web-icons.json',
+    css: './font/gay-web-icons.css',
+    scss: './font/gay-web-icons.scss',
+    woff: './font/fonts/gay-web-icons.woff',
+    woff2: './font/fonts/gay-web-icons.woff2'
   }
 }

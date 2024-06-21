@@ -1,0 +1,61 @@
+/*!
+ * Gay Web Icons v1.11.3 (https://gaywebicons.xyz/)
+ * Copyright 2024 David Gerard
+ * MIT License
+ */
+
+@font-face {
+  font-display: block;
+  font-family: "gay-web-icons";
+  src: url("./fonts/gay-web-icons.woff2?5ce453c4e6562b266d25efa5aec4aad2") format("woff2"),
+url("./fonts/gay-web-icons.woff?5ce453c4e6562b266d25efa5aec4aad2") format("woff"),
+url("./fonts/gay-web-icons.ttf?5ce453c4e6562b266d25efa5aec4aad2") format("truetype"),
+url("./fonts/gay-web-icons.svg?5ce453c4e6562b266d25efa5aec4aad2#gay-web-icons") format("svg"),
+url("./fonts/gay-web-icons.eot?5ce453c4e6562b266d25efa5aec4aad2#iefix") format("embedded-opentype");
+}
+
+.gwi::before,
+[class^="gwi-"]::before,
+[class*=" gwi-"]::before {
+  display: inline-block;
+  font-family: gay-web-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gwi-4mf::before { content: "\f101"; }
+.gwi-a4a::before { content: "\f102"; }
+.gwi-bbrt-alt::before { content: "\f103"; }
+.gwi-bbrt-mobile::before { content: "\f104"; }
+.gwi-bbrt::before { content: "\f105"; }
+.gwi-belami::before { content: "\f106"; }
+.gwi-falcon::before { content: "\f107"; }
+.gwi-gayromeo::before { content: "\f108"; }
+.gwi-grindr-color::before { content: "\f109"; }
+.gwi-grindr-wordmark-color::before { content: "\f10a"; }
+.gwi-grindr-wordmark::before { content: "\f10b"; }
+.gwi-grindr::before { content: "\f10c"; }
+.gwi-helix-studios::before { content: "\f10d"; }
+.gwi-hornet::before { content: "\f10e"; }
+.gwi-jff-filled::before { content: "\f10f"; }
+.gwi-jff::before { content: "\f110"; }
+.gwi-manhunt::before { content: "\f111"; }
+.gwi-naked-sword::before { content: "\f112"; }
+.gwi-nkp::before { content: "\f113"; }
+.gwi-of::before { content: "\f114"; }
+.gwi-oink::before { content: "\f115"; }
+.gwi-pornhub-filled::before { content: "\f116"; }
+.gwi-pornhub::before { content: "\f117"; }
+.gwi-recon::before { content: "\f118"; }
+.gwi-scruff::before { content: "\f119"; }
+.gwi-sean-cody::before { content: "\f11a"; }
+.gwi-sniffies-filled::before { content: "\f11b"; }
+.gwi-sniffies::before { content: "\f11c"; }
+.gwi-tim::before { content: "\f11d"; }
+.gwi-fansly::before { content: "\f11e"; }

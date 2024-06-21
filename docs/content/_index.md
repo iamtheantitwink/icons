@@ -11,13 +11,13 @@ Bootstrap Icons are published to npm, but they can also be manually downloaded i
   <div class="col-md-4">
 {{< md >}}
 ### Package manager
-Install [Bootstrap Icons](https://www.npmjs.com/package/bootstrap-icons)—including SVGs, icon sprite, and icon fonts—with npm or Composer. Then, choose how you'd like to include the icons with the [usage instructions](#usage).
+Install [Bootstrap Icons](https://www.npmjs.com/package/gay-web-icons)—including SVGs, icon sprite, and icon fonts—with npm or Composer. Then, choose how you'd like to include the icons with the [usage instructions](#usage).
 
 {{< highlight sh >}}
-npm i bootstrap-icons
+npm i gay-web-icons
 {{< /highlight >}}
 {{< highlight sh >}}
-composer require twbs/bootstrap-icons
+composer require twbs/gay-web-icons
 {{< /highlight >}}
 {{< /md >}}
   </div>
@@ -35,11 +35,11 @@ composer require twbs/bootstrap-icons
 Include the icon fonts stylesheet—in your website `<head>` or via `@import` in CSS—from jsDelivr and get started in seconds. [See icon font docs](#icon-font) for examples.
 
 {{< highlight html >}}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gay-web-icons@{{< param version >}}/font/gay-web-icons.min.css">
 {{< /highlight >}}
 
 {{< highlight css >}}
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/gay-web-icons@{{< param version >}}/font/gay-web-icons.min.css");
 {{< /highlight >}}
 {{< /md >}}
   </div>
@@ -79,13 +79,13 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
 </div>
 {{< highlight html >}}
 <svg class="bi" width="32" height="32" fill="currentColor">
-  <use xlink:href="bootstrap-icons.svg#heart-fill"/>
+  <use xlink:href="gay-web-icons.svg#heart-fill"/>
 </svg>
 <svg class="bi" width="32" height="32" fill="currentColor">
-  <use xlink:href="bootstrap-icons.svg#toggles"/>
+  <use xlink:href="gay-web-icons.svg#toggles"/>
 </svg>
 <svg class="bi" width="32" height="32" fill="currentColor">
-  <use xlink:href="bootstrap-icons.svg#shop"/>
+  <use xlink:href="gay-web-icons.svg#shop"/>
 </svg>
 {{< /highlight >}}
   </div>
@@ -185,7 +185,7 @@ For purely decorative icons, add `aria-hidden="true"`. Otherwise, provide an app
     </div>
 {{< highlight html >}}
 <svg class="bi" ... role="img" aria-label="Tools">
-  <use xlink:href="bootstrap-icons.svg#tools"/>
+  <use xlink:href="gay-web-icons.svg#tools"/>
 </svg>
 {{< /highlight >}}
     <div class="bd-example">

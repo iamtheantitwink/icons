@@ -1,0 +1,5 @@
+---
+title: Grindr
+categories:
+tags:
+---

@@ -27,16 +27,16 @@
 Bootstrap Icons are packaged up and published to npm. We only include the processed SVGs in this package—it's up to you and your team to implement. [Read our docs](https://icons.getbootstrap.com/) for usage instructions.
 
 ```shell
-npm i bootstrap-icons
+npm i gay-web-icons
 ```
 
-For those [using Packagist](https://packagist.org/packages/twbs/bootstrap-icons), you can also install Bootstrap Icons via Composer:
+For those [using Packagist](https://packagist.org/packages/twbs/gay-web-icons), you can also install Bootstrap Icons via Composer:
 
 ```shell
-composer require twbs/bootstrap-icons
+composer require twbs/gay-web-icons
 ```
 
-[Also available in Figma](https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons).
+[Also available in Figma](https://www.figma.com/community/file/1042482994486402696/gay-web-icons).
 
 ## Usage
 
@@ -52,7 +52,7 @@ Depending on your setup, you can include Bootstrap Icons in a handful of ways.
 ## Development
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/twbs/icons/test.yml?branch=main&label=Tests&logo=github)](https://github.com/twbs/icons/actions/workflows/test.yml?query=workflow%3ATests+branch%3Amain)
-[![npm version](https://img.shields.io/npm/v/bootstrap-icons?logo=npm&logoColor=fff)](https://www.npmjs.com/package/bootstrap-icons)
+[![npm version](https://img.shields.io/npm/v/gay-web-icons?logo=npm&logoColor=fff)](https://www.npmjs.com/package/gay-web-icons)
 
 Clone the repo, install dependencies, and start the Hugo server locally.
 
@@ -85,7 +85,7 @@ Icons are typically only added by @mdo, but exceptions can be made. New glyphs a
 
 Use `npm run icons` to run the script, run `npm run pages` to build permalink pages, complete those pages, and, finally, commit the results in a new branch for updating.
 
-**Warning**: Please exclude any auto-generated files, like `font/**` and `bootstrap-icons.svg` from your branch because they cause conflicts, and we generally update the dist files before a release.
+**Warning**: Please exclude any auto-generated files, like `font/**` and `gay-web-icons.svg` from your branch because they cause conflicts, and we generally update the dist files before a release.
 
 ## Publishing
 

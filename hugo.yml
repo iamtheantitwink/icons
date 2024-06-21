@@ -1,12 +1,12 @@
-languageCode:           "en"
-title:                  "Bootstrap Icons"
-baseURL:                "https://icons.getbootstrap.com"
+languageCode: "en"
+title: "Gay Web Icons"
+baseURL: "https://gaywebicons.xyz"
 enableInlineShortcodes: true
-enableRobotsTXT:        true
-metaDataFormat:         "yaml"
-disableKinds:           ["404", "taxonomy", "term", "RSS"]
+enableRobotsTXT: true
+metaDataFormat: "yaml"
+disableKinds: ["404", "taxonomy", "term", "RSS"]
 
-publishDir:             "_site"
+publishDir: "_site"
 
 security:
   enableInlineShortcodes: true
@@ -18,52 +18,52 @@ security:
 markup:
   goldmark:
     renderer:
-      unsafe:           true
+      unsafe: true
   highlight:
-    noClasses:          false
+    noClasses: false
 
 module:
   mounts:
-    - source:           docs/assets
-      target:           assets
-    - source:           docs/content
-      target:           content
-    - source:           docs/data
-      target:           data
-    - source:           docs/layouts
-      target:           layouts
-    - source:           docs/static
-      target:           static
-    - source:           docs/static/assets/img/favicons/apple-touch-icon.png
-      target:           static/apple-touch-icon.png
-    - source:           docs/static/assets/img/favicons/favicon.ico
-      target:           static/favicon.ico
-    - source:           bootstrap-icons.svg
-      target:           static/bootstrap-icons.svg
-    - source:           icons
-      target:           static/assets/icons
-    - source:           font
-      target:           static/assets/font
-    - source:           node_modules/bootstrap/scss
-      target:           assets/scss/bootstrap
-    - source:           node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
-      target:           static/assets/js/vendor/bootstrap.bundle.min.js
+    - source: docs/assets
+      target: assets
+    - source: docs/content
+      target: content
+    - source: docs/data
+      target: data
+    - source: docs/layouts
+      target: layouts
+    - source: docs/static
+      target: static
+    - source: docs/static/assets/img/favicons/apple-touch-icon.png
+      target: static/apple-touch-icon.png
+    - source: docs/static/assets/img/favicons/favicon.ico
+      target: static/favicon.ico
+    - source: gay-web-icons.svg
+      target: static/gay-web-icons.svg
+    - source: icons
+      target: static/assets/icons
+    - source: font
+      target: static/assets/font
+    - source: node_modules/bootstrap/scss
+      target: assets/scss/bootstrap
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: static/assets/js/vendor/bootstrap.bundle.min.js
 
 params:
-  description:          "Official open source SVG icon library for Bootstrap"
-  social_image_path:    /assets/img/bootstrap-icons-social.png
+  description: "All your favorite gay hookup/porn sites/apps as a Web font!"
+  social_image_path: /assets/img/gay-web-icons-social.png
 
-  version:              "1.11.3"
-  docs_version:         "5.3"
+  version: "1.2.0"
+  docs_version: "1.2"
 
-  main:                 "https://getbootstrap.com"
-  github_org:           "https://github.com/twbs"
-  icons_repo:           "https://github.com/twbs/icons"
-  repo:                 "https://github.com/twbs/bootstrap"
-  twitter:              "getbootstrap"
-  opencollective:       "https://opencollective.com/bootstrap"
-  blog:                 "https://blog.getbootstrap.com/"
-  themes:               "https://themes.getbootstrap.com/"
-  icons:                "https://icons.getbootstrap.com/"
-  swag:                 "https://cottonbureau.com/people/bootstrap"
-  icons_figma:          "https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons"
+  main: "https://gaywebicons.xyz"
+  github_org: "https://github.com/GayWebIcons"
+  icons_repo: "https://github.com/GayWebIcons/Icons"
+  repo: "https://github.com/GayWebIcons/Icons"
+  twitter: "iamtheantitwink"
+  opencollective: "https://opencollective.com/bootstrap"
+  blog: "https://blog.getbootstrap.com/"
+  themes: "https://themes.getbootstrap.com/"
+  icons: "https://icons.getbootstrap.com/"
+  swag: "https://cottonbureau.com/people/bootstrap"
+  icons_figma: "https://www.figma.com/community/file/1042482994486402696/gay-web-icons"
